@@ -11,7 +11,7 @@ const Profile = ({style}: Props) => {
     <div className={`${style === 'big' ? styles.profile__big : styles.profile}`}>
       <div className={styles.profile__avatar}>
         <Image
-          src="/images/avatar.png"
+          src="/img/avatar.png"
           width={style === 'big' ? 128 : 32}
           height={style === 'big' ? 128 : 32}
           alt="Johan Ricardo avatar"

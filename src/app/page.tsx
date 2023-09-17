@@ -1,7 +1,7 @@
 import { Header } from "@/components/header";
 import { Topbar } from '@/components/topbar'
 import { MainNav } from '@/components/mainNav'
-/* import { CardStarted } from "@/components/cardStarted"; */
+import { CardStarted } from "@/components/cardStarted";
 import { MainContent } from "@/components/mainContent"; 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <MainNav />
       </Header>
       <MainContent>
-       aaa
+        <CardStarted />
       </MainContent>
     </main>
   )

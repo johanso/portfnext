@@ -1,0 +1,18 @@
+.card {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+.card::before {
+  content: '';
+  background: url('/img/image-bg-card.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+}
+.card__content {
+  position: relative;
+  top: var(--space-64);
+}
