@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--color-surface-100);
+  box-shadow: var(--single-shadow);
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}

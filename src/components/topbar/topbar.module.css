@@ -1,0 +1,14 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-bottom: 1px solid var(--color-gray-3);
+}
+.topbar__icons {
+  display: flex;
+  gap: var(--space-16);
+}
+.topbar__icons svg {
+  font-size: var(--font-size-24);
+}
