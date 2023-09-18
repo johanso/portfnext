@@ -1,4 +1,4 @@
-import { MainNav, Topbar, CardStarted, Header, AboutMe, MainContent } from "@/components";
+import { MainNav, Topbar, CardStarted, Header, AboutMe, MainContent, Resume } from "@/components";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <MainContent>
         <CardStarted />
         <AboutMe />
+        <Resume />
       </MainContent>
     </main>
   )

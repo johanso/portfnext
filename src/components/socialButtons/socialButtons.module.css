@@ -1,5 +1,5 @@
 .socials {
-  margin-top: var(--space-32);
+  margin-top: var(--space-16);
 }
 .socials__buttons {
   display: flex;

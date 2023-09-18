@@ -1,7 +1,6 @@
 .card {
   height: 100%;
   display: grid;
-  place-content: center;
   position: relative;
 }
 .card::before {
@@ -15,5 +14,13 @@
 }
 .card__content {
   position: relative;
-  top: var(--space-64);
+  transform: translate(0, 100%);
+  height: calc(50% + var(--space-64));
+  top: calc(var(--space-128) * -1)
+}
+.card__buttons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
 }

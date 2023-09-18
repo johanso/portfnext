@@ -1,5 +1,5 @@
 import styles from './cardStarted.module.css'
-import { SocialButtons } from '..'
+import { Button, SocialButtons } from '..'
 import { Profile } from '..'
 
 const CardStarted = () => {
@@ -8,6 +8,10 @@ const CardStarted = () => {
       <div className={styles.card__content}>
         <Profile style='big' />
         <SocialButtons />
+        <div className={styles.card__buttons}>
+          <Button text="Download my CV" />
+          <Button text="Contact Me" />
+        </div>
       </div>
     </section>
   )
