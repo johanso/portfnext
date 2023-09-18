@@ -1,6 +1,6 @@
 import styles from './topbar.module.css'
 import { IoMoonOutline, IoMenuOutline } from "react-icons/io5";
-import { Profile } from '../profile'
+import { Profile } from '..';
 
 const Topbar = () => {
   return (

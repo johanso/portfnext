@@ -2,6 +2,7 @@
   height: 100%;
   display: grid;
   place-content: center;
+  position: relative;
 }
 .card::before {
   content: '';
@@ -10,7 +11,7 @@
   width: 100%;
   position: absolute;
   height: 50%;
-  z-index: -1;
+  z-index: 0;
 }
 .card__content {
   position: relative;

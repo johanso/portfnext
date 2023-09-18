@@ -1,15 +1,15 @@
-import { Profile } from '../profile'
-import { SocialButtons } from '../socialButtons'
 import styles from './cardStarted.module.css'
+import { SocialButtons } from '..'
+import { Profile } from '..'
 
 const CardStarted = () => {
   return (
-    <div className={styles.card}>
+    <section className={`section ${styles.card}`}>
       <div className={styles.card__content}>
         <Profile style='big' />
         <SocialButtons />
       </div>
-    </div>
+    </section>
   )
 }
 
