@@ -1,7 +1,6 @@
 import styles from './aboutMe.module.css'
 import { IoLogoHtml5, IoLogoWordpress, IoLogoFigma, IoWarningOutline } from "react-icons/io5";
 
-
 const AboutMe = () => {
   return (
     <section className={`section ${styles.about}`}>
