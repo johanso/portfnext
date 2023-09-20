@@ -11,3 +11,14 @@
   max-width: 100%;
   z-index: 1;
 }
+
+@media(min-width: 768px) {
+  .header {
+    position: sticky;
+    width: max-content;
+    margin: var(--space-64) 0 0;
+    height: fit-content;
+    padding: var(--space-16) 0 0;
+    border-radius: var(--space-4);
+  }
+}

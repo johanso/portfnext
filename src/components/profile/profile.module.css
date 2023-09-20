@@ -45,3 +45,12 @@
   font-size: var(--font-size-24);
   margin-bottom: var(--space-4);
 }
+
+@media(min-width: 768px) {
+  .profile {
+    gap: 0;
+  }
+  .profile__text_hide {
+    display: none;
+  }
+}

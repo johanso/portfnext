@@ -1,0 +1,62 @@
+.resume {
+  position: relative;
+}
+.resume__block {
+  margin-bottom: var(--space-16);
+}
+.resume__block_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-32);
+}
+.resume__block svg {
+  color: var(--color-primary-100);
+  padding: var(--space-4);
+  border-radius: 50%;
+  width: var(--space-48);
+  height: var(--space-48);
+  float: left;
+  margin: var(--space-8) var(--space-16) 0 0;
+  box-shadow: 0 0 0 2px var(--color-primary-600);
+}
+.resume__block_name {
+  font-family: var(--font-roboto);
+  font-size: .95rem;
+  color: var(--color-text-200);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+.resume__work {
+  position: relative;
+  padding: 0 0 var(--space-16) 0;
+}
+.resume__work_date {
+  margin: 0 0 var(--space-8);
+  padding: 0 var(--space-8);
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: var(--font-size-12);
+  line-height: 2;
+  color: var(--color-text-500);
+  font-weight: var(--font-weight-normal);
+  border: 1px solid var(--color-gray-3);
+}
+.resume__work_date_current {
+  border: 1px solid var(--color-primary-100);
+  color: var(--color-text-200);
+}
+.resume__work_name {
+  font-family: var(--font-roboto);
+  color: var(--color-text-300);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.5;
+}
+.resume__work_company {
+  margin: var(--space-4) 0 var(--space-8);
+  font-size: var(--font-size-12);
+  color: var(--color-text-400);
+}
+.resume__work_desc {
+  margin-bottom: var(--font-size-16);
+}

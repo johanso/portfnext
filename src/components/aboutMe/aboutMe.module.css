@@ -6,7 +6,7 @@
   list-style: none;
 }
 .about__list li {
-  padding: 0 0 var(--space-8);
+  padding: 0 0 var(--space-4);
   text-align: left;
 }
 .about__list li strong {
@@ -31,19 +31,21 @@
 .about__block svg {
   color: var(--color-primary-100);
   padding: var(--space-4);
-  border: 1px solid;
   border-radius: 50%;
   width: var(--space-48);
   height: var(--space-48);
   float: left;
   margin: var(--space-8) var(--space-16) var(--space-16) 0;
+  box-shadow: 0 0 0 2px var(--color-primary-600);
 }
 .about__block_name {
+  font-family: var(--font-roboto);
+  font-size: .95rem;
   color: var(--color-text-200);
   font-weight: var(--font-weight-bold);
-  letter-spacing: 1px;
   margin-bottom: var(--space-8);
   padding-left: var(--space-64);
+  text-transform: uppercase;
 }
 .about__block_desc {
   font-weight: var(--font-weight-light);

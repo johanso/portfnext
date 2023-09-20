@@ -12,3 +12,13 @@
 .topbar__icons svg {
   font-size: var(--font-size-24);
 }
+
+@media(min-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    gap: .5rem;
+    height: max-content;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+}
