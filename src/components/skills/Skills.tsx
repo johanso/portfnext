@@ -1,18 +1,7 @@
 import React from 'react'
 import styles from './skill.module.css'
-import { 
-  TbBrandHtml5, 
-  TbBrandCss3, 
-  TbBrandJavascript, 
-  TbBrandNextjs, 
-  TbBrandTypescript,
-  TbBrandReact,
-  TbBrandSass,
-  TbBrandTailwind,
-  TbSql,
-  TbBrandFigma,
-  TbXd,
-  TbBrandWordpress } from "react-icons/tb";
+import { TbSql, TbBrandFigma } from "react-icons/tb";
+import { Icon } from '../icons';
 
 const Skills = () => {
   return (
@@ -20,56 +9,56 @@ const Skills = () => {
 
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandHtml5 />
+          <Icon icon="html" />
         </span>
         <span className={styles.skill__text}>HTML</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandCss3 />
+          <Icon icon="css" />
         </span>
         <span className={styles.skill__text}>CSS</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandJavascript />
+          <Icon icon="javascript" />
         </span>
         <span className={styles.skill__text}>JavaScript</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandReact />
+          <Icon icon="react" />
         </span>
         <span className={styles.skill__text}>React</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandNextjs />
+          <Icon icon="next" />
         </span>
         <span className={styles.skill__text}>Next.Js</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandTypescript />
+          <Icon icon="typescript" />
         </span>
         <span className={styles.skill__text}>TypeScript</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandSass />
+          <Icon icon="sass" />
         </span>
         <span className={styles.skill__text}>Sass</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandTailwind />
+          <Icon icon="tailwind" />
         </span>
         <span className={styles.skill__text}>Tailwind</span>
       </div>
@@ -90,14 +79,14 @@ const Skills = () => {
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbXd />
+          <Icon icon="xd" />
         </span>
         <span className={styles.skill__text}>Adobe XD</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandWordpress />
+          <Icon icon="wordpress" />
         </span>
         <span className={styles.skill__text}>Wordpress</span>
       </div>

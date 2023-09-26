@@ -12,15 +12,23 @@
   justify-content: center;
   align-items: center;
   height: var(--space-128);
+  position: relative;
 }
 .skill__icon {
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-16);
 }
 .skill__icon svg {
-  margin: 0;
-  background: none;
-  box-shadow: none;
-  color: var(--color-gray-4);
-  border: none;
-  border-radius: 0;
+  margin: 0 !important;
+  width: calc(var(--space-64) - var(--space-8)) !important;
+  height: calc(var(--space-64) - var(--space-8)) !important;
+  color: var(--color-text-200) !important;
+  opacity: .8;
+}
+.skill__text {
+  background: var(--color-primary-100);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--color-gray-1);
 }

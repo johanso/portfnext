@@ -25,7 +25,7 @@ const Profile = ({style, topbar}: Props) => {
           alt="Johan Ricardo avatar"
         />
       </Link>
-        
+
       </div>
       <div className={topbar === true ? styles.profile__text_hide : styles.profile__text}>
         <h1 className={styles.profile__name}>Johan Ricardo</h1>

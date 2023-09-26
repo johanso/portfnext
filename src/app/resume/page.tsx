@@ -1,6 +1,6 @@
 import { MainContent, Skills } from '@/components'
 import styles from './resume.module.css'
-import { IoRocketOutline, IoSchoolOutline, IoBulbOutline } from 'react-icons/io5'
+import { IoRocketOutline, IoSchoolOutline, IoBulbOutline, IoTrophyOutline } from 'react-icons/io5'
 
 const Resume = () => {
   return (
@@ -52,6 +52,20 @@ const Resume = () => {
           </div>
           <div className={styles.resume__work}>
             <div className={styles.resume__work_date}>2018 - Present</div>
+            <div className={styles.resume__work_name}>Team Leader</div>
+            <div className={styles.resume__work_company}>Facebook Inc.</div>
+            <p className={styles.resume__work_desc}>Collaborate with creative and development teams.</p>
+          </div>
+        </div>
+        
+        
+        <div className={styles.resume__block}>
+          <div className={styles.resume__block_header}>
+            <IoTrophyOutline />
+            <div className={styles.resume__block_name}>CERTIFICATES</div>
+          </div>
+          <div className={styles.resume__work}>
+            <div className={`${styles.resume__work_date}`}>2018 - Present</div>
             <div className={styles.resume__work_name}>Team Leader</div>
             <div className={styles.resume__work_company}>Facebook Inc.</div>
             <p className={styles.resume__work_desc}>Collaborate with creative and development teams.</p>

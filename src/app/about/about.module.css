@@ -34,7 +34,7 @@
   width: var(--space-48);
   height: var(--space-48);
   float: left;
-  margin: var(--space-8) var(--space-16) var(--space-16) 0;
+  margin: 0 var(--space-16) var(--space-16) 0;
   box-shadow: 0 0 0 2px var(--color-primary-600);
 }
 .about__block_name {
