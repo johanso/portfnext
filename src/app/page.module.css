@@ -1,0 +1,26 @@
+.card {
+  height: 100%;
+  display: grid;
+  position: relative;
+}
+.card::before {
+  content: '';
+  background: url('/img/image-bg-card.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: 50%;
+  z-index: 0;
+}
+.card__content {
+  position: relative;
+  transform: translate(0, 100%);
+  height: calc(50% + var(--space-64));
+  top: calc(var(--space-128) * -1)
+}
+.card__buttons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}

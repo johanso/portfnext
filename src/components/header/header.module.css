@@ -9,7 +9,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 @media(min-width: 768px) {
@@ -18,7 +18,7 @@
     width: max-content;
     margin: var(--space-64) 0 0;
     height: fit-content;
-    padding: var(--space-16) 0 0;
+    padding: calc(var(--space-16) + var(--space-4)) 0 var(--space-8);
     border-radius: var(--space-4);
   }
 }

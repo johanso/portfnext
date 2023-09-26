@@ -1,30 +1,47 @@
+"use client"
+import Link from "next/link";
+import { usePathname } from 'next/navigation'
 import styles from './mainNav.module.css'
 import { 
-  IoPerson, 
+  IoHappyOutline, 
   IoDocumentTextOutline, 
   IoGridOutline, 
   IoPaperPlaneOutline } from "react-icons/io5";
 
 const MainNav = () => {
+  const pathname = usePathname()
+
   return (
     <nav className={styles.nav}>
       <ul className={styles.nav__ul}>
-        <li className={styles.nav__li}>
-          <IoPerson />
+        <Link 
+          scroll={false} 
+          href="/about" 
+          className={`${styles.nav__li} ${pathname === '/about' ? styles.nav__li__active : ''}`}>
+          <IoHappyOutline />
           <span>About</span>
-        </li>
-        <li className={styles.nav__li}>
+        </Link>
+        <Link 
+          scroll={false} 
+          href="/resume" 
+          className={`${styles.nav__li} ${pathname === '/resume' ? styles.nav__li__active : ''}`}>
           <IoDocumentTextOutline />
           <span>Resume</span>
-        </li>
-        <li className={styles.nav__li}>
+        </Link>
+        <Link 
+          scroll={false} 
+          href="#works" 
+          className={`${styles.nav__li} ${pathname === '/works' ? styles.nav__li__active : ''}`}>
           <IoGridOutline />
           <span>Works</span>
-        </li>
-        <li className={styles.nav__li}>
+        </Link>
+        <Link 
+          scroll={false} 
+          href="#contact"
+          className={`${styles.nav__li} ${pathname === '/contact' ? styles.nav__li__active : ''}`}>
           <IoPaperPlaneOutline />
           <span>Contact</span>
-        </li>
+        </Link>
       </ul>
     </nav>
   )

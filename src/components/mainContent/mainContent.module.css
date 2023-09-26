@@ -2,34 +2,28 @@
   position: relative;
   height: calc(100vh - 128px);
   margin-top: 128px;
+  width: 100%;
 }
-@media(min-width: 544px) {
-  .main {
-    max-width: var(--breakpoint-small);
-    margin: var(--space-64) auto;
-  }
-  
+.main > div {
+  height: 100%;
 }
 @media(min-width: 768px) {
   .main {
+    margin: var(--space-64) auto;
+  }
+  .main > div {
     overflow: auto;
     scrollbar-width: thin;
-    scrollbar-color: #000000 #ffffff;
+    scrollbar-color: #000000 var(--color-surface-100);
   }
-  /* Chrome, Edge, and Safari */
-  .main::-webkit-scrollbar {
+  .main > div::-webkit-scrollbar {
     width: 10px;
   }
-  .main::-webkit-scrollbar-track {
-    background: transparent;
+  .main > div::-webkit-scrollbar-track {
+    background: var(--color-surface-100);
   }
-  .main::-webkit-scrollbar-thumb {
+  .main > div::-webkit-scrollbar-thumb {
     background-color: var(--color-surface-500);
     border: 2px solid var(--color-surface-200);
-  }
-}
-@media(min-width: 1024px) {
-  .main {
-    max-width: var(--breakpoint-medium);
   }
 }

@@ -19,6 +19,11 @@
   justify-content: center;
   height: var(--space-48);
   gap: var(--space-4);
+  text-decoration: none;
+  color: inherit;
+}
+.nav__li__active {
+  color: var(--color-complementary);
 }
 .nav__li svg {
   font-size: var(--font-size-24);

@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Lekton, Roboto } from 'next/font/google'
+import Providers from './Providers'
+import { Header, MainNav, Topbar } from '@/components'
 
 const lekton = Lekton({
   weight: ['400', '700'],
@@ -25,8 +27,20 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${lekton.variable} ${roboto.variable}`}>
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning={true} className='light' style={{ colorScheme: 'light'}}>
+      <body className={`${lekton.variable} ${roboto.variable}`}>
+        <Providers>
+          <div className='boxbg'>
+            <main>
+              <Header>
+                <Topbar />
+                <MainNav />
+              </Header>
+              {children}
+            </main>
+          </div>
+        </Providers>
+      </body>
     </html>
   )
 }

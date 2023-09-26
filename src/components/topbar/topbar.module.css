@@ -8,6 +8,7 @@
 .topbar__icons {
   display: flex;
   gap: var(--space-16);
+  cursor: pointer;
 }
 .topbar__icons svg {
   font-size: var(--font-size-24);
