@@ -61,7 +61,7 @@ const Resume = () => {
         
         <div className={styles.resume__block}>
           <div className={styles.resume__block_header}>
-            <IoTrophyOutline />
+            <IoRocketOutline />
             <div className={styles.resume__block_name}>CERTIFICATES</div>
           </div>
           <div className={styles.resume__work}>

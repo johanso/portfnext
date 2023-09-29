@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './skill.module.css'
-import { TbSql, TbBrandFigma } from "react-icons/tb";
-import { Icon } from '../icons';
+import Image from 'next/image';
 
 const Skills = () => {
   return (
@@ -9,84 +8,144 @@ const Skills = () => {
 
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="html" />
+          <Image
+            src="/img/logo-html.png"
+            width={80}
+            height={80}
+            alt="logo html"
+          />
         </span>
         <span className={styles.skill__text}>HTML</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="css" />
+          <Image
+            src="/img/logo-css.png"
+            width={80}
+            height={80}
+            alt="logo css"
+          />
         </span>
         <span className={styles.skill__text}>CSS</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="javascript" />
+          <Image
+            src="/img/logo-javascript.png"
+            width={80}
+            height={80}
+            alt="logo javascript"
+          />
         </span>
         <span className={styles.skill__text}>JavaScript</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="react" />
+          <Image
+            src="/img/logo-react.png"
+            width={80}
+            height={80}
+            alt="logo react"
+          />
         </span>
         <span className={styles.skill__text}>React</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="next" />
+          <Image
+            src="/img/logo-next.png"
+            width={80}
+            height={80}
+            alt="logo next"
+          />
         </span>
         <span className={styles.skill__text}>Next.Js</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="typescript" />
+          <Image
+            src="/img/logo-typescript.png"
+            width={80}
+            height={80}
+            alt="logo typescript"
+          />
         </span>
         <span className={styles.skill__text}>TypeScript</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="sass" />
+          <Image
+            src="/img/logo-sass.png"
+            width={80}
+            height={80}
+            alt="logo sass"
+          />
         </span>
         <span className={styles.skill__text}>Sass</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="tailwind" />
+          <Image
+            src="/img/logo-tailwind.png"
+            width={80}
+            height={80}
+            alt="logo tailwind"
+          />
         </span>
         <span className={styles.skill__text}>Tailwind</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbSql />
+          <Image
+            src="/img/logo-sql.png"
+            width={80}
+            height={80}
+            alt="logo sql"
+          />
         </span>
         <span className={styles.skill__text}>SQL</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <TbBrandFigma />
+          <Image
+            src="/img/logo-figma.png"
+            width={80}
+            height={80}
+            alt="logo figma"
+          />
         </span>
         <span className={styles.skill__text}>Figma</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="xd" />
+          <Image
+            src="/img/logo-xd.png"
+            width={80}
+            height={80}
+            alt="logo xd"
+          />
         </span>
         <span className={styles.skill__text}>Adobe XD</span>
       </div>
       
       <div className={styles.skill__card}>
         <span className={styles.skill__icon}>
-          <Icon icon="wordpress" />
+          <Image
+            src="/img/logo-wordpress.png"
+            width={80}
+            height={80}
+            alt="logo wordpress"
+          />
         </span>
         <span className={styles.skill__text}>Wordpress</span>
       </div>

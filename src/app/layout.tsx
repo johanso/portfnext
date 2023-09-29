@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Lekton, Roboto } from 'next/font/google'
 import Providers from './Providers'
 import { Header, MainNav, Topbar } from '@/components'
+import { DataContextProvider } from '@/context/dataProvider'
 
 const lekton = Lekton({
   weight: ['400', '700'],
@@ -29,17 +30,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true} className='light' style={{ colorScheme: 'light'}}>
       <body className={`${lekton.variable} ${roboto.variable}`}>
-        <Providers>
-          <div className='boxbg'>
-            <main>
-              <Header>
-                <Topbar />
-                <MainNav />
-              </Header>
-              {children}
-            </main>
-          </div>
-        </Providers>
+        <DataContextProvider>
+          <Providers>
+            <div className='boxbg'>
+              <main>
+                <Header>
+                  <Topbar />
+                  <MainNav />
+                </Header>
+                {children}
+              </main>
+            </div>
+          </Providers>
+        </DataContextProvider>
       </body>
     </html>
   )
