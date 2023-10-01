@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <MainContent>
-      <section className={`section`}>
+      <section className={styles.section}>
         <h2 className={styles.title}>{about.title}</h2>
         <p>
           <strong>{about.gretting}</strong><br />

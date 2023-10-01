@@ -1,0 +1,24 @@
+.card {
+  background-color: var(--color-surface-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: var(--space-128);
+  position: relative;
+}
+.image {
+  margin-bottom: var(--space-8);
+  img {
+    filter: contrast(0.4);
+  }
+}
+.text {
+  font-family: var(--font-lekton);
+  font-weight: var(--font-weight-bold);
+  position: absolute;
+  bottom: var(--space-16);
+  width: 100%;
+  text-align: center;
+  color: var(--color-text-400);
+}

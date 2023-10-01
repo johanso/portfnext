@@ -1,10 +1,16 @@
-@use '../../styles/mixins' as *;
+@use '../../styles/extends' as *;
 
+.section {
+  @extend %section;
+  @media(min-width: 768px) {
+    margin-top: 0;
+  }
+}
 .title {
-  @include section-title;
+  @extend %section-title;
 }
 .subtitle {
-  @include section-subtitle
+  @extend %section-subtitle
 }
 .list {
   padding: 0;
@@ -30,7 +36,6 @@
     font-weight: var(--font-weight-light);
   }  
 }  
-
 .block {
   margin-bottom: var(--space-32);
   svg {

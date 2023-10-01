@@ -9,7 +9,7 @@ const data = {
     title: "About Me",
     subtitle: "Is there anything I can do for you?",
     gretting: "Hello! I’m Donald Wellborn.",
-    desc: "Back-end Frond-end developer from UK, London. I have rich experience in wordpress, also I am good at Magento. I love to talk with you about our unique.",
+    desc: "Back-end Frond-end developer from UK, London. I have rich experience in wordpress, also I am good at Magento. I love to talk width you about our unique.",
     list: [
       { id: uuidv4(), data: "Age", value: "36" },
       { id: uuidv4(), data: "Residence", value: "CO" },
@@ -42,10 +42,197 @@ const data = {
         desc: "Security consultants can check the code and scan for vulnerabilities.",
       }
     ]
+  },
+  resume: {
+    title: "Experience",
+    subtitle: "What I've done",
+    blockExperience: [
+      {
+        title: "Experience",
+        desc: "--",
+        experiences: [
+          {
+            id:   uuidv4(),
+            actual: true,
+            date: "2018 - Present",
+            name: "Team Leader", 
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            actual: false,
+            date: "2018 - Present",
+            name: "Team Leader", 
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            actual: false,
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            actual: false,
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          }
+        ]
+      }
+    ],
+    blockEducation: [
+      {
+        title: "Education",
+        desc: "--",
+        educations: [
+          {
+            id:   uuidv4(),
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          }
+        ]
+      }
+    ],
+    blockCertificate: [
+      {
+        title: "Certificate",
+        desc: "--",
+        certificates: [
+          {
+            id:   uuidv4(),
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          },
+          {
+            id:   uuidv4(),
+            date: "2018 - Present",
+            name: "Team Leader",
+            company: "Facebook Inc.",
+            desc: "Collaborate width creative and development teams."
+          }
+        ]
+      }
+    ],
+    blockSkills: [
+      {
+        title: "Skills",
+        desc: "--",
+        skills: [
+          {
+            id:   uuidv4(),
+            name: "html",
+            image: "logo-html.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "css",
+            image: "logo-css.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "javascript",
+            image: "logo-javascript.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "react",
+            image: "logo-react.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "next",
+            image: "logo-next.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "typescript",
+            image: "logo-typescript.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "sass",
+            image: "logo-sass.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "tailwind",
+            image: "logo-tailwind.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "sql",
+            image: "logo-sql.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "figma",
+            image: "logo-figma.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "xd",
+            image: "logo-xd.png",
+            width: 72,
+            height: 72,
+          },
+          {
+            id:   uuidv4(),
+            name: "wordpress",
+            image: "logo-wordpress.png",
+            width: 72,
+            height: 72,
+          }
+        ]
+      }
+    ]
   }
 }
 
-export const DataContext = createContext()
+export const DataContext = createContext(data)
 
 export const DataContextProvider = ({ children }: any) => {
   return (

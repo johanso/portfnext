@@ -133,12 +133,6 @@ body {
   padding: 0 1rem;
 }
 
-
-.section {
-  padding: var(--space-16);
-  background-color: var(--color-surface-100);
-}
-
 p {
   font-size: var(--font-size-16);
   line-height: 1.5;
