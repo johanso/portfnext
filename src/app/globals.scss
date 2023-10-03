@@ -1,6 +1,7 @@
-:root {
-  --base-unit: 0.25rem;
+@use '../scss/variables' as *;
+@use '../scss/mixins' as *;
 
+:root {
   --color-primary-100: #3f51b5;
   --color-primary-200: #5962be;
   --color-primary-300: #7074c6;
@@ -19,50 +20,6 @@
   --color-gray-8: #555555;
   --color-gray-9: #3C3C3C;
   --color-gray-10: #222222;
-
-  --base-half-unit: calc(var(--base-unit) / 2);
-  --font-base-unit: var(--base-unit);
-  /* Font sizes - 4x4 grid */
-  --font-size-12: calc(var(--font-base-unit) * 3);
-  --font-size-16: calc(var(--font-base-unit) * 4);
-  --font-size-20: calc(var(--font-base-unit) * 5);
-  --font-size-24: calc(var(--font-base-unit) * 6);
-  --font-size-30: calc(var(--font-base-unit) * 8);
-  --font-size-40: calc(var(--font-base-unit) * 10);
-  --font-size-48: calc(var(--font-base-unit) * 12);
-  --font-size-64: calc(var(--font-base-unit) * 16);
-  --font-size-128: calc(var(--font-base-unit) * 32);
-  --font-size-256: calc(var(--font-base-unit) * 64);
-
-  --line-height-base-unit: 1;
-  /* Line heights */
-  --line-height-small:   calc(var(--line-height-base-unit) * 1.1);
-  --line-height-medium:  calc(var(--line-height-base-unit) * 1.3);
-  --line-height-large:   calc(var(--line-height-base-unit) * 1.5);
-  
-  /* Font weights */
-  --font-weight-lighter:  100;
-  --font-weight-light:    200;
-  --font-weight-normal:   400;
-  --font-weight-bold:     700;
-  --font-weight-bolder:   900;
-
-  /* Spacers */
-  --space-base-unit: var(--base-unit);
-  --space-4:  calc(var(--space-base-unit) * 1);
-  --space-8:  calc(var(--space-base-unit) * 2);
-  --space-16: calc(var(--space-base-unit) * 4);
-  --space-24: calc(var(--space-base-unit) * 6);
-  --space-32: calc(var(--space-base-unit) * 8);
-  --space-40: calc(var(--space-base-unit) * 10);
-  --space-48: calc(var(--space-base-unit) * 12);
-  --space-64: calc(var(--space-base-unit) * 16);
-  --space-128: calc(var(--space-base-unit) * 32);
-
-  /* Breakpoints  */
-  --breakpoint-small:     544px;
-  --breakpoint-medium:    768px;
-  --breakpoint-large:     1012px;
 
   /* Border color */
   --border-color-lighter: var(--color-gray-2);
@@ -116,47 +73,37 @@
   transition: background var(--transition-fast) ease-in;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: var(--font-lekton);
   background-color: var(--color-surface-200);
   color: var(--color-text-100);
   background-image: linear-gradient(var(--color-surface-400) 1px, transparent 1px),
     linear-gradient(to right, #ccccdc 1px, transparent 1px);
-  background-size: var(--space-64) var(--space-64);
+  background-size: $space-64 $space-64;
 }
+
 .boxbg {
   background: radial-gradient(transparent, var(--color-surface-200) 85%);
 }
-.container {
-  max-width: var(--breakpoint-large);
-  margin: 0 auto;
-  padding: 0 1rem;
-}
 
 p {
-  font-size: var(--font-size-16);
-  line-height: 1.5;
+  font-size: $fsize-16;
+  line-height: $line-height-large;
   padding: 0;
-  margin: 0 0 var(--font-size-24);
+  margin: 0 0 $fsize-24;
 }
 
-@media(min-width: 544px) {
-  main {
+main {
+  @include breakpoint(small) {
     display: flex;
     gap: 1rem;
     margin: auto;
   }
-}
-@media(min-width: 768px) {
-  main {
-    max-width: var(--breakpoint-small);
+  @include breakpoint(medium) {
+    max-width: 34rem;
   }
-  .section {
-    margin-top: 0;
-  }
-}
-@media(min-width: 1024px) {
-  main {
-    max-width: var(--breakpoint-medium);
+  @include breakpoint(large) {
+    max-width: 48rem;
   }
 }

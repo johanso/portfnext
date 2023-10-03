@@ -1,8 +1,10 @@
-@use '../../styles/extends' as *;
+@use '../../scss/extends' as *;
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
 
 .section {
   @extend %section;
-  @media(min-width: 768px) {
+  @include breakpoint(medium) {
     margin-top: 0;
   }
 }
@@ -16,11 +18,11 @@
   padding: 0;
   list-style: none;
   .item {
-    padding: 0 0 var(--space-4);
+    padding: 0 0 $space-4;
     text-align: left;
   }
   .data {
-    margin-right: var(--space-8);
+    margin-right: $space-8;
     padding: 0;
     color: var(--color-text-200);
     font-weight: var(--font-weight-bold);
@@ -28,7 +30,7 @@
       position: relative;
       content: ' . . . .';
       display: inline;
-      margin-left: calc( var(--space-4) * -1);
+      margin-left: calc( $space-4 * -1);
     }
   }  
   .value {
@@ -37,24 +39,24 @@
   }  
 }  
 .block {
-  margin-bottom: var(--space-32);
+  margin-bottom: $space-32;
   svg {
     color: var(--color-complementary);
-    padding: var(--space-4);
-    width: var(--space-48);
-    height: var(--space-48);
+    padding: $space-4;
+    width: $space-48;
+    height: $space-48;
     float: left;
   }
   .name {
-    font: normal normal var(--font-weight-bold) .95rem/var(--line-height-medium) var(--font-roboto);
+    font: normal normal var(--font-weight-bold) .95rem/$line-height-medium var(--font-roboto);
     color: var(--color-text-200);
-    margin-bottom: var(--space-8);
-    padding-left: var(--space-64);
+    margin-bottom: $space-8;
+    padding-left: $space-64;
     text-transform: uppercase;
   }
   .desc {
     font-weight: var(--font-weight-light);
-    line-height: var(--line-height-large);
-    padding-left: var(--space-64);
+    line-height: $line-height-large;
+    padding-left: $space-64;
   }
 }

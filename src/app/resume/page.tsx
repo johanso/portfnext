@@ -1,8 +1,8 @@
 "use client"
 import { useContext } from 'react';
+import styles from './resume.module.scss'
 import { MainContent, Skills } from '@/components'
 import { DataContext } from '@/context/dataProvider';
-import styles from './resume.module.scss'
 import { IoRocketOutline, IoSchoolOutline, IoBulbOutline } from 'react-icons/io5'
 import { IBlockCertificate, IBlockEducation, IBlockExperience, IBlockSkill, ICertificate, IEducation, IExperience, IResume, ISkill } from '../types';
 

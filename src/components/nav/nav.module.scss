@@ -1,0 +1,42 @@
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
+
+.nav {
+  display: flex;
+  padding: $space-8 0;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: auto;
+  grid-gap: 1rem;
+  width: 100%;
+  @include breakpoint(medium) {
+    flex-direction: column;
+    display: flex;
+  }
+}
+.li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: $space-48;
+  gap: $space-4;
+  text-decoration: none;
+  color: inherit;
+  &_active {
+    color: var(--color-complementary);
+  }
+  svg {
+    font-size: $fsize-24;
+  }
+  span {
+    font-size: $fsize-12;
+    font-weight: var(--font-weight-light);
+  }
+}
+

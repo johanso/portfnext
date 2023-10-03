@@ -1,4 +1,4 @@
-import styles from './button.module.css'
+import styles from './button.module.scss'
 
 interface Props {
   text?: string
@@ -6,7 +6,7 @@ interface Props {
 
 const Button = ({text}: Props) => {
   return (
-    <button className={styles.button}>{text}</button>
+    <button className={styles.btn}>{text}</button>
   )
 }
 

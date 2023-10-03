@@ -1,8 +1,8 @@
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
 import { Lekton, Roboto } from 'next/font/google'
 import Providers from './Providers'
-import { Header, MainNav, Topbar } from '@/components'
+import { Header, Nav, Topbar } from '@/components'
 import { DataContextProvider } from '@/context/dataProvider'
 
 const lekton = Lekton({
@@ -36,7 +36,7 @@ export default function RootLayout({
               <main>
                 <Header>
                   <Topbar />
-                  <MainNav />
+                  <Nav />
                 </Header>
                 {children}
               </main>

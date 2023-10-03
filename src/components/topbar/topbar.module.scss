@@ -1,25 +1,25 @@
-.topbar {
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
+
+.block {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: $space-64;
   border-bottom: 1px solid var(--color-gray-3);
-}
-.topbar__icons {
-  display: flex;
-  gap: var(--space-16);
-  cursor: pointer;
-}
-.topbar__icons svg {
-  font-size: var(--font-size-24);
-}
-
-@media(min-width: 768px) {
-  .topbar {
+  @include breakpoint(medium) {
     flex-direction: column;
     gap: .5rem;
     height: max-content;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+  }
+}
+.icons {
+  display: flex;
+  gap: $space-16;
+  cursor: pointer;
+  svg {
+    font-size: $fsize-24;
   }
 }

@@ -1,0 +1,27 @@
+@use '../../scss/variables' as *;
+
+.socials {
+  margin-top: $space-16;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: $space-16;
+}
+.button {
+  border: 1px solid var(--color-text-500);
+  padding: $space-8;
+  display: flex;
+  border-radius: 50%;
+  opacity: .5;
+  cursor: pointer;
+  transition: all var(--transition-fast) linear;
+  &:hover, 
+  &:focus {
+    opacity: 1;
+  }
+  svg {
+    font-size: $fsize-20;
+    color: var(--color-text-500);
+  }
+}

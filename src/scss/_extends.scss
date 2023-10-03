@@ -1,38 +1,47 @@
+@use './variables' as *;
+@use './mixins' as *;
+
 %section {
-  padding: var(--space-16);
+  padding: $space-16;
   background-color: var(--color-surface-100);
 }
 
 %section-title {
   font-family: var(--font-roboto);
   color: var(--color-surface-100);
-  font-size: var(--font-size-20);
+  font-size: $fsize-20;
   font-weight: var(--font-weight-normal);
-  margin: 0 0 var(--space-24);
+  margin: 0 0 $space-24;
   position: relative;
   letter-spacing: 1px;
   background: var(--color-primary-100);
-  padding: calc(var(--space-8) + var(--space-4)) var(--space-24);
-  margin: calc(var(--space-16) * -1) calc(var(--space-16) * -1) var(--space-24);
+  padding: calc($space-8 + $space-4) $space-24;
+  margin: calc($space-16 * -1) calc($space-16 * -1) $space-24;
   position: sticky;
-  top: var(--space-128);
+  top: $space-128;
   z-index: 2;
   &::before {
     content: '';
     background: var(--color-surface-100);
     position: absolute;
-    left: var(--space-4);
+    left: $space-4;
     top: 0;
     height: 100%;
-    width: var(--space-4);
+    width: $space-4;
   }
-  @media(min-width: 768px) {
+  @include breakpoint(medium) {
     top: 0;
   }
 }
 
 %section-subtitle {
-  font-size: var(--font-size-18);
+  font-size: $fsize-20;
   font-weight: 500;
-  margin: var(--space-24) 0 var(--space-32);
+  margin: $space-24 0 $space-32;
+}
+
+%container {
+  max-width: var(--breakpoint-large);
+  margin: 0 auto;
+  padding: 0 1rem;
 }

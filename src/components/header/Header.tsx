@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import styles from './header.module.css'
+import styles from './header.module.scss'
 
 
 interface Props {
@@ -8,8 +8,8 @@ interface Props {
 
 const Header = ({children}: Props) => {
   return (
-  <header className={styles.header}>
-    <div className="container">
+  <header className={styles.block}>
+    <div className={styles.container}>
       {children}
     </div>
   </header>

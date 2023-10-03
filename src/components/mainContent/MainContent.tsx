@@ -1,6 +1,6 @@
 "use client"
 import { ReactNode } from 'react'
-import styles from './mainContent.module.css'
+import styles from './mainContent.module.scss'
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Props {

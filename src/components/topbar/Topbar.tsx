@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react';
-import styles from './topbar.module.css'
+import styles from './topbar.module.scss'
 import { useTheme } from "next-themes"
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { Profile } from '..';
@@ -17,9 +17,9 @@ const Topbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme
 
   return (
-    <div className={styles.topbar}>
+    <div className={styles.block}>
       <Profile topbar={true} />
-      <div className={styles.topbar__icons}>
+      <div className={styles.icons}>
         {currentTheme === "dark" 
           ? <IoSunnyOutline onClick={() => setTheme("light")} />
           : <IoMoonOutline onClick={() => setTheme("dark")} /> 

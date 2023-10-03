@@ -1,18 +1,18 @@
-import styles from './socialButtons.module.css'
+import styles from './socialButtons.module.scss'
 import { IoLogoGithub, IoLogoYoutube, IoLogoLinkedin } from "react-icons/io5";
 
 
 const SocialButtons = () => {
   return (
     <div className={styles.socials}>
-      <div className={styles.socials__buttons}>
-        <div className={styles.socials__button}>
+      <div className={styles.buttons}>
+        <div className={styles.button}>
           <IoLogoGithub />
         </div>
-        <div className={styles.socials__button}>
+        <div className={styles.button}>
           <IoLogoYoutube />
         </div>
-        <div className={styles.socials__button}>
+        <div className={styles.button}>
           <IoLogoLinkedin />
         </div>
       </div>

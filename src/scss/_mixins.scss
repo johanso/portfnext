@@ -1,0 +1,26 @@
+
+// Breakpoints
+$breakpoint-small: 544px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1012px;
+
+@mixin breakpoint($size) {
+  @if $size == small {
+    @media (min-width: #{$breakpoint-small}) {
+      @content;
+    }
+  }
+  @else if $size == medium {
+    @media (min-width: #{$breakpoint-medium}) {
+      @content;
+    }
+  }
+  @else if $size == large {
+    @media (min-width: #{$breakpoint-large}) {
+      @content;
+    }
+  }
+  @else {
+    @warn "Invalid breakpoint size: #{$size}. Use 'small', 'medium', or 'large'.";
+  }
+}

@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import styles from './profile.module.css'
+import styles from './profile.module.scss'
 import Link from 'next/link'
 
 interface Props {
@@ -14,11 +14,11 @@ const Profile = ({style, topbar}: Props) => {
   const pathname = usePathname()
 
   return (
-    <div className={`${style === 'big' ? styles.profile__big : styles.profile}`}>
-      <div className={styles.profile__avatar}>
+    <div className={`${style === 'big' ? styles.block_big : styles.block}`}>
+      <div className={styles.avatar}>
       <Link scroll={false} href="/">
         <Image
-          className={`${styles.profile__img} ${pathname === '/' ? styles.profile__img__active : ''}`}
+          className={`${styles.img} ${pathname === '/' ? styles.img_active : ''}`}
           src="/img/avatar.png"
           width={style === 'big' ? 128 : 32}
           height={style === 'big' ? 128 : 32}
@@ -27,9 +27,9 @@ const Profile = ({style, topbar}: Props) => {
       </Link>
 
       </div>
-      <div className={topbar === true ? styles.profile__text_hide : styles.profile__text}>
-        <h1 className={styles.profile__name}>Johan Ricardo</h1>
-        <h3 className={styles.profile__rol}>Frontend UI dev</h3>
+      <div className={topbar === true ? styles.text_hide : styles.text}>
+        <h1 className={styles.name}>Johan Ricardo</h1>
+        <h3 className={styles.rol}>Frontend UI dev</h3>
       </div>
     </div>
   )
