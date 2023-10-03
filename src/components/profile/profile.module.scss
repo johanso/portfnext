@@ -46,7 +46,7 @@
 }
 .rol {
   font-size: $fsize-12;
-  font-weight: var(--font-weight-normal);
+  font-weight: $fweight-normal;
   color: var(--color-text-500);
   line-height: 16px;
   text-overflow: ellipsis;

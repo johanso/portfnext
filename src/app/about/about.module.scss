@@ -25,7 +25,7 @@
     margin-right: $space-8;
     padding: 0;
     color: var(--color-text-200);
-    font-weight: var(--font-weight-bold);
+    font-weight: $fweight-bold;
     &:after {
       position: relative;
       content: ' . . . .';
@@ -35,7 +35,7 @@
   }  
   .value {
     color: var(--color-text-200);
-    font-weight: var(--font-weight-light);
+    font-weight: $fweight-light;
   }  
 }  
 .block {
@@ -48,14 +48,14 @@
     float: left;
   }
   .name {
-    font: normal normal var(--font-weight-bold) .95rem/$line-height-medium var(--font-roboto);
+    font: normal normal $fweight-bold .95rem/$line-height-medium var(--font-roboto);
     color: var(--color-text-200);
     margin-bottom: $space-8;
     padding-left: $space-64;
     text-transform: uppercase;
   }
   .desc {
-    font-weight: var(--font-weight-light);
+    font-weight: $fweight-light;
     line-height: $line-height-large;
     padding-left: $space-64;
   }

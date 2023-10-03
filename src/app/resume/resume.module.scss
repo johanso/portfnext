@@ -35,7 +35,7 @@
     margin-bottom: $space-24;
   }
   &_name {
-    font: normal var(--font-weight-bold) .95rem/$line-height-medium var(--font-roboto);
+    font: normal normal $fweight-bold .95rem/#{$line-height-medium} var(--font-roboto);
     color: var(--color-text-200);
     text-transform: uppercase;
   }
@@ -44,26 +44,23 @@
     padding: 0 0 $space-24 0;
   }
   &_date {
+    font: normal normal $fweight-normal $fsize-12/#{$line-height-xxlarge} var(--font-roboto);
     margin: 0 0 $space-8;
     padding: 0 $space-8;
     position: relative;
     display: inline-block;
     vertical-align: top;
-    font-size: $fsize-12;
-    line-height: 2;
     color: var(--color-text-500);
-    font-weight: var(--font-weight-normal);
     border: 1px solid var(--color-gray-3);
   }
   &_date_current {
     border: 1px solid var(--color-primary-100);
     color: var(--color-text-200);
+    font-weight: $fweight-bold;
   }
   &_name {
-    font-family: var(--font-roboto);
+    font: normal normal $fweight-bold $fsize-16/#{$line-height-large} var(--font-roboto);
     color: var(--color-text-300);
-    font-weight: var(--font-weight-bold);
-    line-height: 1.5;
   }
   &_company {
     margin: $space-4 0 $space-8;

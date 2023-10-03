@@ -10,7 +10,7 @@
   font-family: var(--font-roboto);
   color: var(--color-surface-100);
   font-size: $fsize-20;
-  font-weight: var(--font-weight-normal);
+  font-weight: $fweight-normal;
   margin: 0 0 $space-24;
   position: relative;
   letter-spacing: 1px;
@@ -35,8 +35,8 @@
 }
 
 %section-subtitle {
-  font-size: $fsize-20;
-  font-weight: 500;
+  font-size: $fsize-16;
+  font-weight: $fweight-bold;
   margin: $space-24 0 $space-32;
 }
 
