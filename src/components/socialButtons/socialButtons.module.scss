@@ -1,11 +1,11 @@
 @use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
 
 .socials {
   margin-top: $space-16;
 }
 .buttons {
-  display: flex;
-  justify-content: center;
+  @include flexbox($display: flex, $justify: center);
   gap: $space-16;
 }
 .button {

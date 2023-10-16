@@ -255,6 +255,96 @@ const data = {
         ]
       }
     ]
+  },
+  works: {
+    title: "Works",
+    subtitle: "What I've done",
+    navFilter: [
+      {
+        id: 'freelance',
+        text: 'Freelance'
+      },
+      {
+        id: 'clones',
+        text: 'Clones'
+      },
+      {
+        id: 'employee',
+        text: 'Employee'
+      }
+    ],
+    portfolio: [
+      {
+        id: 1,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        year: 2022,
+        company: 'ABC Web Solutions',
+        participation: 'Front-end development and design of the user interface.',
+        mode: 'freelance'
+      },
+      {
+        id: 2,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['React', 'Node.js', 'MongoDB'],
+        year: 2021,
+        company: 'XYZ Software',
+        participation: 'Full-stack development and database design.',
+        mode: 'employee'
+      },
+      {
+        id: 32,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['React', 'Node.js', 'MongoDB'],
+        year: 2022,
+        company: 'XYZ Software',
+        participation: 'Full-stack development and database design.',
+        mode: 'clones'
+      },
+      {
+        id: 3,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['Vue.js', 'Firebase'],
+        year: 2022,
+        company: 'Tech Innovators',
+        participation: 'Front-end development and real-time database integration.',
+        mode: 'clones'
+      },
+      {
+        id: 4,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['Vue.js', 'Firebase'],
+        year: 2020,
+        company: 'Tech Innovators',
+        participation: 'Front-end development and real-time database integration.',
+        mode: 'clones'
+      },
+      {
+        id: 5,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['Vue.js', 'Firebase'],
+        year: 2020,
+        company: 'Tech Innovators',
+        participation: 'Front-end development and real-time database integration.',
+        mode: 'clones'
+      },
+      {
+        id: 33,
+        name: 'Portfolio',
+        image: 'default-fallback.jpg',
+        technologies: ['Vue.js', 'Firebase'],
+        year: 2023,
+        company: 'Tech Innovators',
+        participation: 'Front-end development and real-time database integration.',
+        mode: 'clones'
+      }
+    ]
   }
 }
 

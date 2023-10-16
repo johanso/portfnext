@@ -30,8 +30,7 @@
     margin-bottom: 0;
   }
   &_header {
-    display: flex;
-    align-items: center;
+    @include flexbox($display: flex, $align: center);
     margin-bottom: $space-24;
   }
   &_name {

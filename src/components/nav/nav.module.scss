@@ -15,15 +15,11 @@
   grid-gap: 1rem;
   width: 100%;
   @include breakpoint(medium) {
-    flex-direction: column;
-    display: flex;
+    @include flexbox($display: flex, $direction: column);
   }
 }
 .li {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  @include flexbox($display: flex, $direction: column, $align: center, $justify: center);
   height: $space-48;
   gap: $space-4;
   text-decoration: none;

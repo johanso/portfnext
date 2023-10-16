@@ -2,9 +2,7 @@
 @use '../../scss/mixins' as *;
 
 .block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flexbox($display: flex, $justify: space-between, $align: center);
   height: $space-64;
   border-bottom: 1px solid var(--color-gray-3);
   @include breakpoint(medium) {

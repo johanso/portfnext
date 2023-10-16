@@ -1,0 +1,65 @@
+@use '../../scss/variables' as *;
+
+.image {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  &:hover {
+    &::after {
+      background: rgba(255, 255, 255, 0.6);
+      top: 0;
+    }
+    [class*='title'] {
+      bottom: 0;
+    }
+    [class*='icon'] {
+      left: calc(100% - ($fsize-40));
+    }
+  }
+  &::after {
+    background: rgba(255, 255, 255, 0);
+    content: '';
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: all var(--transition-fast) linear;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.title {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  bottom: -$space-40;
+  color: var(--color-text-100);
+  background: var(--color-surface-100);
+  width: calc(100% - 2px);
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  transition: bottom var(--transition-fast) linear;
+  z-index: 2;
+}
+.icon {
+  background: var(--color-primary-100);
+  display: flex;
+  top: 0;
+  position: absolute;
+  padding: $fsize-8;
+  border-radius: 0;
+  z-index: 3;
+  transition: all var(--transition-fast) linear;
+  left: 100%;
+  svg {
+    font-size: $fsize-24;
+    color: var(--color-gray-1);
+  }
+}

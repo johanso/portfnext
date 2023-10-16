@@ -6,6 +6,7 @@ import SocialButtons from "./socialButtons/SocialButtons";
 import Topbar from "./topbar/Topbar";
 import Button from "./button/Button";
 import Skills from "./skills/Skills";
+import Project from "./project/project";
 
 export { 
   Topbar, 
@@ -15,5 +16,6 @@ export {
   Profile,
   SocialButtons,
   Button,
-  Skills
+  Skills,
+  Project
 }
