@@ -18,5 +18,6 @@ export interface IPortfolio {
   year: number
   company: string
   participation: string
-  mode: string
+  mode: string,
+  handleClick: any,
 }

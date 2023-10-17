@@ -5,27 +5,32 @@ import styles from './project.module.scss'
 import { IPortfolio } from '@/app/types/works';
 import { IoResize } from 'react-icons/io5';
 
-const Project = ({name,
+const Project = ({
+  name,
   image,
   company,
+  id,
+  handleClick
   }: IPortfolio) => {
   const [hasError, setHasError] = useState(false);
   const fallbackSrc = '/../img/default-fallback.png'
 
   return (
-    <div className={styles.image}>
-      <span className={styles.icon}>
-        <IoResize />
-      </span>
-      <Image
-        src={hasError ? fallbackSrc : `/img/${image}`}
-        width={200}
-        height={250}
-        alt={name}
-        onError={() => !hasError && setHasError(true)}
-      />
-      <span className={styles.title}>{company}</span>
-    </div>
+    <>
+      <div className={styles.image} onClick={() => handleClick(id)}>
+        <span className={styles.icon}>
+          <IoResize />
+        </span>
+          <Image
+            src={hasError ? fallbackSrc : `/img/${image}`}
+            width={200}
+            height={250}
+            alt={name}
+            onError={() => !hasError && setHasError(true)}
+          />
+        <span className={styles.title}>{company}</span>
+      </div>
+    </>
   )
 }
 
