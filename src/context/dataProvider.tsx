@@ -277,7 +277,7 @@ const data = {
       {
         id: 1,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: '/v1697769741/porfolio/fallback_hidkhw.png',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         year: 2022,
         company: 'ABC Web Solutions',

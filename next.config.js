@@ -7,6 +7,9 @@ const nextConfig = {
     sassOptions: {
         includePaths: [path.join(__dirname, 'scss')],
     },
+    images: {
+        domains: ['res.cloudinary.com'],
+    }
 }
 
 module.exports = nextConfig
