@@ -71,7 +71,7 @@ const Works = () => {
       </section>
       {projectID && (
         <Modal closeHref="/works">
-          <ProjectFull id={Number(projectID)} name={''}	 />
+          <ProjectFull id={Number(projectID)} />
         </Modal>
       )}
     </MainContent>

@@ -13,7 +13,6 @@ const Project = ({
   handleClick
   }: IPortfolio) => {
   const [hasError, setHasError] = useState(false);
-  const fallbackSrc = '/../img/default-fallback.png'
 
   return (
     <>
@@ -22,7 +21,7 @@ const Project = ({
           <IoResize />
         </span>
           <Image
-            src={hasError ? fallbackSrc : `/img/${image}`}
+            src={image}
             width={200}
             height={250}
             alt={name}

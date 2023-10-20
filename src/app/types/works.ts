@@ -13,7 +13,7 @@ export interface INavFilter {
 export interface IPortfolio {
   id?: number
   name: string
-  image?: string
+  image: string
   technologies?: string[]
   year?: number
   company?: string

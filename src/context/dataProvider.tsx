@@ -277,7 +277,7 @@ const data = {
       {
         id: 1,
         name: 'Portfolio',
-        image: '/v1697769741/porfolio/fallback_hidkhw.png',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697769741/porfolio/fallback_hidkhw.png',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         year: 2022,
         company: 'ABC Web Solutions',
@@ -287,7 +287,7 @@ const data = {
       {
         id: 2,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['React', 'Node.js', 'MongoDB'],
         year: 2021,
         company: 'XYZ Software',
@@ -297,7 +297,7 @@ const data = {
       {
         id: 32,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['React', 'Node.js', 'MongoDB'],
         year: 2022,
         company: 'XYZ Software',
@@ -307,7 +307,7 @@ const data = {
       {
         id: 3,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['Vue.js', 'Firebase'],
         year: 2022,
         company: 'Tech Innovators',
@@ -317,7 +317,7 @@ const data = {
       {
         id: 4,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['Vue.js', 'Firebase'],
         year: 2020,
         company: 'Tech Innovators',
@@ -327,7 +327,7 @@ const data = {
       {
         id: 5,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['Vue.js', 'Firebase'],
         year: 2020,
         company: 'Tech Innovators',
@@ -337,7 +337,7 @@ const data = {
       {
         id: 33,
         name: 'Portfolio',
-        image: 'default-fallback.jpg',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
         technologies: ['Vue.js', 'Firebase'],
         year: 2023,
         company: 'Tech Innovators',

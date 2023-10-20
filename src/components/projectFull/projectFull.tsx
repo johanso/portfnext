@@ -1,9 +1,8 @@
 import React from 'react'
 import styles from './projectFull.module.scss'
-import { IPortfolio } from '@/app/types/works'
 import Image from 'next/image'
 
-const ProjectFull = ({id}: IPortfolio) => {
+const ProjectFull = ({id}: any) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -20,7 +19,7 @@ const ProjectFull = ({id}: IPortfolio) => {
             width={720}
             height={1080}
             quality={100}
-            src="/../img/default-fallback.png" 
+            src="https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg" 
             alt="project image" />
         </div>
       </div>
