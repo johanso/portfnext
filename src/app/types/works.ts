@@ -11,13 +11,13 @@ export interface INavFilter {
 }
 
 export interface IPortfolio {
-  id: number
-  name: string
-  image: string
-  technologies: string[]
-  year: number
-  company: string
-  participation: string
-  mode: string,
-  handleClick: any,
+  id?: number
+  name?: string
+  image?: string
+  technologies?: string[]
+  year?: number
+  company?: string
+  participation?: string
+  mode?: string,
+  handleClick?: any,
 }

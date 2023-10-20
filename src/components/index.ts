@@ -8,6 +8,8 @@ import Button from "./button/Button";
 import Skills from "./skills/Skills";
 import Project from "./project/project";
 import Modal from "./modal/modal";
+import ProjectFull from "./projectFull/projectFull";
+import Input from "./form/input/input";
 
 export { 
   Topbar, 
@@ -19,5 +21,7 @@ export {
   Button,
   Skills,
   Project,
-  Modal
+  Modal,
+  ProjectFull,
+  Input
 }

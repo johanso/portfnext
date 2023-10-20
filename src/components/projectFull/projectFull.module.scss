@@ -1,0 +1,30 @@
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
+
+.header {
+  margin-bottom: $space-16;
+}
+.title {
+  font-size: $fsize-16 * 1.2;
+  font-weight: $fweight-bold;
+}
+.image {
+  height: calc(100vh - 220px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #000000 var(--color-surface-100);
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--color-surface-100);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-surface-500);
+    border: 2px solid var(--color-surface-200);
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

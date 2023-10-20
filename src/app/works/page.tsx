@@ -2,7 +2,7 @@
 import React, { useContext, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
-import { MainContent, Modal, Project } from '@/components'
+import { MainContent, Modal, Project, ProjectFull } from '@/components'
 import { DataContext } from '@/context/dataProvider'
 import { INavFilter, IPortfolio } from '../types/works'
 import styles from './works.module.scss'
@@ -70,7 +70,9 @@ const Works = () => {
         </div>
       </section>
       {projectID && (
-        <Modal closeHref="/works">Hello</Modal>
+        <Modal closeHref="/works">
+          <ProjectFull id={Number(projectID)}	 />
+        </Modal>
       )}
     </MainContent>
   )

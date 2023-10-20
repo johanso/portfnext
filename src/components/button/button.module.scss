@@ -13,4 +13,12 @@
     background: var(--color-primary-100);
     color: var(--color-gray-1);
   }
+  &[data-color='invert'] {
+    background: var(--color-primary-100);
+    color: var(--color-gray-1);
+    border: none;
+    &:hover {
+      background: var(--color-primary-200);
+    }
+  }
 }
