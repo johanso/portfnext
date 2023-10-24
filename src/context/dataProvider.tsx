@@ -25,7 +25,7 @@ const data = {
       icon: "IoGridOutline",
     },
     {
-      
+      id: 4,
       name: "Contact",
       href: "/contact",
       icon: "IoPaperPlaneOutline",
@@ -275,74 +275,244 @@ const data = {
     ],
     portfolio: [
       {
-        id: 1,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697769741/porfolio/fallback_hidkhw.png',
-        technologies: ['HTML', 'CSS', 'JavaScript'],
-        year: 2022,
-        company: 'ABC Web Solutions',
-        participation: 'Front-end development and design of the user interface.',
-        mode: 'freelance'
-      },
-      {
-        id: 2,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        id: 1545,
+        name: 'Million And Up',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817540/porfolio/million-web-1_hlmgqz.jpg',
+        technologies: ['Sass', 'React', 'Node.js'],
         year: 2021,
-        company: 'XYZ Software',
-        participation: 'Full-stack development and database design.',
+        company: 'Million And Up',
+        participation: 'Million And Up (Rediseño): Maquetación y desarrollo de componentes',
         mode: 'employee'
       },
       {
-        id: 32,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['React', 'Node.js', 'MongoDB'],
-        year: 2022,
-        company: 'XYZ Software',
-        participation: 'Full-stack development and database design.',
-        mode: 'clones'
+        id: 1544,
+        name: 'Top Projects',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817444/porfolio/top-projects-1_kkcxs0.jpg',
+        technologies: ['Sass', 'React', 'Node.js'],
+        year: 2021,
+        company: 'Million And Up',
+        participation: 'Top Projects South Florida: Maquetación y desarrollo de componentes',
+        mode: 'employee'
       },
       {
-        id: 3,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['Vue.js', 'Firebase'],
-        year: 2022,
-        company: 'Tech Innovators',
-        participation: 'Front-end development and real-time database integration.',
-        mode: 'clones'
+        id: 1543,
+        name: 'Artistic Vita',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817132/porfolio/artistic-1_adomlr.jpg',
+        technologies: ['Sass', 'React', 'Node.js'],
+        year: 2021,
+        company: 'Million And Up',
+        participation: 'Artistic Projects Site: Maquetación y desarrollo de componentes',
+        mode: 'employee'
       },
       {
-        id: 4,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['Vue.js', 'Firebase'],
-        year: 2020,
-        company: 'Tech Innovators',
-        participation: 'Front-end development and real-time database integration.',
-        mode: 'clones'
+        id: 1542,
+        name: 'Realtors',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817227/porfolio/realtors-luis-cata-1_tiblqt.jpg',
+        technologies: ['Sass', 'React', 'Node.js'],
+        year: 2021,
+        company: 'Million And Up',
+        participation: 'Realtors, Luis y Cata: Maquetación y desarrollo de componentes',
+        mode: 'employee'
       },
       {
-        id: 5,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['Vue.js', 'Firebase'],
-        year: 2020,
-        company: 'Tech Innovators',
-        participation: 'Front-end development and real-time database integration.',
-        mode: 'clones'
+        id: 1541,
+        name: 'Inversiones Bancolombia',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697815154/porfolio/dashboard-inversiones-2_b6oypb.jpg',
+        technologies: ['Adobe XD', 'Html', 'Sass', 'Angular'],
+        year: 2019,
+        company: 'Cinte (IBM)',
+        participation: 'Mi aporte en este proyecto ha sido en el proceso de diseño, maquetación y desarrollo.',
+        mode: 'employee'
       },
       {
-        id: 33,
-        name: 'Portfolio',
-        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697808327/porfolio/top-projects-1_b2fpsc.jpg',
-        technologies: ['Vue.js', 'Firebase'],
-        year: 2023,
-        company: 'Tech Innovators',
-        participation: 'Front-end development and real-time database integration.',
-        mode: 'clones'
+        id: 1540,
+        name: 'Inversiones Bancolombia',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697815061/porfolio/dashboard-inversiones-1_ot9gnp.jpg',
+        technologies: ['Adobe XD', 'Html', 'Sass', 'Angular'],
+        year: 2019,
+        company: 'Cinte (IBM)',
+        participation: 'Mi aporte en este proyecto ha sido en el proceso de diseño, maquetación y desarrollo.',
+        mode: 'employee'
+      },
+      {
+        id: 1539,
+        name: 'Pallomaro',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814495/porfolio/pallomaro-redisenio_dwuorz.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2018,
+        company: 'E-solutions',
+        participation: 'Pallomaro Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1538,
+        name: 'Hercules',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814410/porfolio/home-hercules_ezuqrg.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Wordpress'],
+        year: 2018,
+        company: 'E-solutions',
+        participation: 'Mi aporte en este proyecto fue el rediseño de este sitio web en el cms Wordpress.',
+        mode: 'employee'
+      },
+      {
+        id: 1537,
+        name: 'Laskin',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814568/porfolio/home-laskin-V2_ezcv4u.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2018,
+        company: 'E-solutions',
+        participation: 'Laskin Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1536,
+        name: 'Siesa Landing',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814714/porfolio/Mailing-Facturacion-electronica_ewyi4b.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Javascript'],
+        year: 2018,
+        company: 'E-solutions',
+        participation: 'Mi aporte en este proyecto fue el rediseño y desarrollo de la landing page.',
+        mode: 'employee'
+      },
+      {
+        id: 1535,
+        name: 'PlusDent',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814118/porfolio/home-plussdent_vca0aa.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2017,
+        company: 'E-solutions',
+        participation: 'PlusDent Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1534,
+        name: 'Redox',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814118/porfolio/home-redox_vcr81a.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2017,
+        company: 'E-solutions',
+        participation: 'Redox Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1533,
+        name: 'Mi Corral',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814117/porfolio/home-micorral_u64qva.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2017,
+        company: 'E-solutions',
+        participation: 'Mi Corral Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1532,
+        name: 'Oben',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814117/porfolio/home-oben_kxvrew.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2017,
+        company: 'E-solutions',
+        participation: 'Oben Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1531,
+        name: 'Cali Tienda Virtual',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697813060/porfolio/home-dptcali_nrdsbx.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'Deportivo Cali Tienda Virtual Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1530,
+        name: 'Elek',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812942/porfolio/home-elek_cgk0sl.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'Elek Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1529,
+        name: 'FerreMaster',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812808/porfolio/home-ferremaster_fimxx0.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'FerreMaster: Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1528,
+        name: 'Grupo Giraldo',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812753/porfolio/home-grupogiraldo_znatt9.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'Grupo Giraldo Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1527,
+        name: 'Alimentos Toning',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812577/porfolio/Home-final-toning_vicliz.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'Alimentos Toning Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1526,
+        name: 'Artemisa',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812502/porfolio/home-artemisa_pimgav.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2016,
+        company: 'E-solutions',
+        participation: 'Artemisa Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1525,
+        name: 'El Rendidor',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697810553/porfolio/home-elrendidor_x7y4jx.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2015,
+        company: 'E-solutions',
+        participation: 'Super Mercados el Rendidor Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1524,
+        name: 'LeGrantFrances',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697810819/porfolio/home-legrandfrances_xgojc6.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2015,
+        company: 'E-solutions',
+        participation: 'LeGrantFrances Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1523,
+        name: 'Pallomaro',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697811312/porfolio/home-pallomaro_dhk0v0.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2015,
+        company: 'E-solutions',
+        participation: 'Pallomaro. Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
+      },
+      {
+        id: 1522,
+        name: 'RodaIndustriales',
+        image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697811997/porfolio/home-rodaindustriales_u39auz.jpg',
+        technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
+        year: 2015,
+        company: 'E-solutions',
+        participation: 'RodaIndustriales Aplicación B2B: Mi aporte en este proyecto fue la del diseño del prototipo, maquetación.',
+        mode: 'employee'
       }
     ]
   }

@@ -14,6 +14,7 @@ export interface IPortfolio {
   id?: number
   name: string
   image: string
+  blurDataURL?: string
   technologies?: string[]
   year?: number
   company?: string

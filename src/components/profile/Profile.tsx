@@ -3,12 +3,10 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import styles from './profile.module.scss'
 import Link from 'next/link'
-
 interface Props {
   style?: string
   topbar?: boolean
 }
-
 const Profile = ({style, topbar}: Props) => {
 
   const pathname = usePathname()

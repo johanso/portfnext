@@ -8,7 +8,6 @@ import { IoResize } from 'react-icons/io5';
 const Project = ({
   name,
   image,
-  company,
   id,
   handleClick
   }: IPortfolio) => {
@@ -27,7 +26,7 @@ const Project = ({
             alt={name}
             onError={() => !hasError && setHasError(true)}
           />
-        <span className={styles.title}>{company}</span>
+        <span className={styles.title}>{name}</span>
       </div>
     </>
   )

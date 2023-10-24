@@ -10,10 +10,7 @@
   z-index: 11;
   transition: all var(--transition-fast) linear;
   @include breakpoint(medium) {
-    width: 45vw;
-  }
-  @include breakpoint(large) {
-    width: 40vw;
+    width: 768px;
   }
   &::after {
     content: '';
