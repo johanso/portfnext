@@ -4,6 +4,9 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  border: $space-4 solid var(--color-surface-300);
+  max-height: 12.5rem;
+  border-radius: $space-8;
   &:hover {
     &::after {
       background: var(--color-surface-100);
@@ -12,6 +15,7 @@
     }
     [class*='title'] {
       bottom: 0;
+      opacity: 1;
     }
     [class*='icon'] {
       left: calc(100% - ($fsize-40));
@@ -32,7 +36,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    max-height: 230px;
+    max-height: 12.5rem;
     object-position: top;
   }
 }
@@ -50,6 +54,7 @@
   text-align: center;
   transition: bottom var(--transition-fast) linear;
   z-index: 2;
+  opacity: 0;
 }
 .icon {
   background: var(--color-primary-100);
