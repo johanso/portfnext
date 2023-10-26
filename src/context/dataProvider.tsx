@@ -34,8 +34,8 @@ const data = {
   about: {
     title: "About Me",
     subtitle: "Is there anything I can do for you?",
-    gretting: "Hello! I’m Donald Wellborn.",
-    desc: "Back-end Frond-end developer from UK, London. I have rich experience in wordpress, also I am good at Magento. I love to talk width you about our unique.",
+    gretting: "Hello! I’m Johan Ricardo.",
+    desc: "a web designer and developer focused on creating outstanding user experiences. With a background in graphic design and coding skills, I'm here to turn your web visions into reality. Let's chat!",
     list: [
       { id: uuidv4(), data: "Age", value: "36" },
       { id: uuidv4(), data: "Residence", value: "CO" },
@@ -47,25 +47,25 @@ const data = {
         id:   uuidv4(),
         icon: "code",
         name: "Front-end", 
-        desc: "Modern and mobile-ready website that will help you reach all of your marketing.",
+        desc: "I specialize in crafting engaging and responsive user interfaces. From design concepts to coding with HTML, CSS, JavaScript and frameworks.",
       },
       {
         id:   uuidv4(),
         icon: "ui",
         name: "UX / UI",
-        desc: "UI/UX focus on the user, frontend focus on the settings of the user.",
+        desc: "User Experience (UX) and User Interface (UI) design are at the heart of my work. I'm passionate about creating interfaces that are both aesthetically pleasing and highly functional.",
       },
       {
         id:   uuidv4(),
         icon: "wordpress",
         name: "WordPress Development",
-        desc: "WordPress development services improve business websites.",
+        desc: "WordPress is my playground when it comes to web development. I excel in customizing, optimizing, and extending WordPress websites. Whether it's a blog or a complex platform, I leverage the power of WordPress to build robust and scalable solutions tailored to your needs.",
       },
       {
         id:   uuidv4(),
         icon: "shield",
         name: "WordPress Security",
-        desc: "Security consultants can check the code and scan for vulnerabilities.",
+        desc: "Cybersecurity is a top priority in today's digital world. I'm committed to fortifying WordPress sites against vulnerabilities. Through stringent security practices, routine audits, and proactive measures",
       }
     ]
   },
