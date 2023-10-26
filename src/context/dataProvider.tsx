@@ -70,8 +70,8 @@ const data = {
     ]
   },
   resume: {
-    title: "Experience",
-    subtitle: "What I've done",
+    title: "Resume",
+    subtitle: "In this section, I showcase my professional journey and hands-on experience as a web designer and developer",
     blockExperience: [
       {
         title: "Experience",
@@ -80,34 +80,42 @@ const data = {
           {
             id:   uuidv4(),
             actual: true,
-            date: "2018 - Present",
-            name: "Team Leader", 
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2021 - Present",
+            name: "Senior UI Designer / Dev", 
+            company: "Million and Up",
+            desc: "In my last role, I spearheaded website development and CRM maintenance. I leveraged React and TypeScript to craft essential UI components."
           },
           {
             id:   uuidv4(),
             actual: false,
-            date: "2018 - Present",
-            name: "Team Leader", 
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2020 - 2021",
+            name: "Frontend UI", 
+            company: "Exsis Digital Angels",
+            desc: "In this role, I specialized in creating interactive UI components with React and TypeScript, ensuring high-quality design and functionality."
           },
           {
             id:   uuidv4(),
             actual: false,
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2019 - 2020",
+            name: "Frontend UI Dev",
+            company: "Soluciones Bolívar S.A.S.",
+            desc: "As a Frontend UI designer in my third position, I excelled in crafting pixel-perfect web interfaces, collaborating closely with developers."
           },
           {
             id:   uuidv4(),
             actual: false,
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2018 - 2019",
+            name: "Frontend UI Dev",
+            company: "Grupo CINTE",
+            desc: "In my time at the second company, I enhanced the UI, focusing on user-friendly navigation, clean layouts, and mobile responsiveness."
+          },
+          {
+            id:   uuidv4(),
+            actual: false,
+            date: "2013 - 2018",
+            name: "UI/UX Frontend Dev",
+            company: "E-solutions",
+            desc: "In my initial role, I designed visually appealing, responsive web interfaces, collaborating across teams for seamless user experiences."
           }
         ]
       }
@@ -119,46 +127,57 @@ const data = {
         educations: [
           {
             id:   uuidv4(),
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2007 - 2009",
+            name: "Multimedia Design and Development Technologist",
+            company: "Servicio Nacional de Aprendizaje (SENA)",
+            desc: "--"
           },
           {
             id:   uuidv4(),
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2006 - 2007",
+            name: "Graphic Design",
+            company: "Systemcenter",
+            desc: "--"
           }
         ]
       }
     ],
     blockCertificate: [
       {
-        title: "Certificate",
+        title: "Certificates",
         desc: "--",
         certificates: [
           {
             id:   uuidv4(),
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2023",
+            name: "Meta Front-End Developer",
+            company: "Meta",
+            desc: "Show credential",
+            url: "https://www.coursera.org/account/accomplishments/specialization/certificate/X3LWV5G4C5MT"
           },
           {
             id:   uuidv4(),
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2021",
+            name: "Foundations of User Experience (UX) Design",
+            company: "Google",
+            desc: "Show credential",
+            url: "https://www.coursera.org/account/accomplishments/verify/JAY6JM3ECCNN"
           },
           {
             id:   uuidv4(),
-            date: "2018 - Present",
-            name: "Team Leader",
-            company: "Facebook Inc.",
-            desc: "Collaborate width creative and development teams."
+            date: "2020",
+            name: "Introducción al Desarrollo Web I, II",
+            company: "Google Actívate",
+            desc: "Show credential",
+            url: "https://learndigital.withgoogle.com/activate/validate-certificate-code"
+          },
+          {
+            id:   uuidv4(),
+            date: "2019",
+            name: "Enterprise Design Thinking Practitioner",
+            company: "IBM",
+            desc: "Show credential",
+            url: "https://www.youracclaim.com/badges/b07839ab-c9af-46a2-873e-d061acef007e/linked_in_profile"
           }
         ]
       }

@@ -43,9 +43,9 @@
     padding: 0 0 $space-24 0;
   }
   &_date {
-    font: normal normal $fweight-normal $fsize-12/#{$line-height-xxlarge} var(--font-roboto);
+    font: normal normal $fweight-normal $fsize-12 * 1.2/#{$line-height-xxlarge} var(--font-roboto);
     margin: 0 0 $space-8;
-    padding: 0 $space-8;
+    padding: 0 $space-8 * 1.5;
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -53,9 +53,26 @@
     border: 1px solid var(--color-gray-3);
   }
   &_date_current {
-    border: 1px solid var(--color-primary-100);
+    border: 2px solid var(--color-primary-100);
     color: var(--color-text-200);
     font-weight: $fweight-bold;
+  }
+  &_link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: $space-8;
+    svg {
+      float: none !important;
+      width: $fsize-16 !important;
+      height: $fsize-16 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      color: var(--color-text-100) !important;
+    }
+    &:hover {
+      color: var(--color-complementary);
+    }
   }
   &_name {
     font: normal normal $fweight-bold $fsize-16/#{$line-height-large} var(--font-roboto);
@@ -63,7 +80,7 @@
   }
   &_company {
     margin: $space-4 0 $space-8;
-    font-size: $fsize-12;
+    font-size: $fsize-16;
     color: var(--color-text-400);
   }
   &_desc {

@@ -48,6 +48,7 @@ export interface ICertificate {
   name: string
   company: string
   desc: string
+  url: string
 }
 
 export interface IBlockSkill {
