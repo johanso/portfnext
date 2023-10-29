@@ -332,7 +332,7 @@ const data = {
     ],
     portfolio: [
       {
-        id: uuidv4(),
+        id: 202104,
         name: 'Million And Up',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817540/porfolio/million-web-1_hlmgqz.jpg',
         technologies: ['Sass', 'React', 'Node.js'],
@@ -342,7 +342,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 202103,
         name: 'Top Projects',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817444/porfolio/top-projects-1_kkcxs0.jpg',
         technologies: ['Sass', 'React', 'Node.js'],
@@ -352,7 +352,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 202102,
         name: 'Artistic Vita',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817132/porfolio/artistic-1_adomlr.jpg',
         technologies: ['Sass', 'React', 'Node.js'],
@@ -362,7 +362,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 202101,
         name: 'Realtors',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697817227/porfolio/realtors-luis-cata-1_tiblqt.jpg',
         technologies: ['Sass', 'React', 'Node.js'],
@@ -372,7 +372,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201902,
         name: 'Inversiones Bancolombia',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697815154/porfolio/dashboard-inversiones-2_b6oypb.jpg',
         technologies: ['Adobe XD', 'Html', 'Sass', 'Angular'],
@@ -382,7 +382,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201901,
         name: 'Inversiones Bancolombia',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697815061/porfolio/dashboard-inversiones-1_ot9gnp.jpg',
         technologies: ['Adobe XD', 'Html', 'Sass', 'Angular'],
@@ -392,7 +392,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201804,
         name: 'Pallomaro',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814495/porfolio/pallomaro-redisenio_dwuorz.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -402,7 +402,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201803,
         name: 'Hercules',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814410/porfolio/home-hercules_ezuqrg.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Wordpress'],
@@ -412,7 +412,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id:  201802,
         name: 'Laskin',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814568/porfolio/home-laskin-V2_ezcv4u.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -422,7 +422,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201801,
         name: 'Siesa Landing',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814714/porfolio/Mailing-Facturacion-electronica_ewyi4b.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Javascript'],
@@ -432,7 +432,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201704,
         name: 'PlusDent',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814118/porfolio/home-plussdent_vca0aa.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -442,7 +442,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201703,
         name: 'Redox',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814118/porfolio/home-redox_vcr81a.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -452,7 +452,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201702,
         name: 'Mi Corral',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814117/porfolio/home-micorral_u64qva.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -462,7 +462,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201701,
         name: 'Oben',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697814117/porfolio/home-oben_kxvrew.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -472,7 +472,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201606,
         name: 'Cali Tienda Virtual',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697813060/porfolio/home-dptcali_nrdsbx.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -482,7 +482,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201605,
         name: 'Elek',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812942/porfolio/home-elek_cgk0sl.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -492,7 +492,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201604,
         name: 'FerreMaster',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812808/porfolio/home-ferremaster_fimxx0.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -502,7 +502,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201603,
         name: 'Grupo Giraldo',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812753/porfolio/home-grupogiraldo_znatt9.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -512,7 +512,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201602,
         name: 'Alimentos Toning',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812577/porfolio/Home-final-toning_vicliz.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -522,7 +522,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201601,
         name: 'Artemisa',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697812502/porfolio/home-artemisa_pimgav.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -532,7 +532,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201504,
         name: 'El Rendidor',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697810553/porfolio/home-elrendidor_x7y4jx.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -542,7 +542,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201503,
         name: 'LeGrantFrances',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697810819/porfolio/home-legrandfrances_xgojc6.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -552,7 +552,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201502,
         name: 'Pallomaro',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697811312/porfolio/home-pallomaro_dhk0v0.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
@@ -562,7 +562,7 @@ const data = {
         mode: 'employee'
       },
       {
-        id: uuidv4(),
+        id: 201501,
         name: 'RodaIndustriales',
         image: 'https://res.cloudinary.com/dcplixyte/image/upload/v1697811997/porfolio/home-rodaindustriales_u39auz.jpg',
         technologies: ['Photoshop', 'Html', 'Sass', 'Angular'],
