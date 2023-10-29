@@ -12,10 +12,10 @@ const ProjectFull = ({id}: any) => {
       <div className={styles.header}>
         <div><strong>Project Name:</strong> {portfolio.name}</div>
         <div><strong>Company:</strong> {portfolio.company}</div>
-        <div><strong>my contribution:</strong> {portfolio.participation}</div>
+        <div><strong>My contribution:</strong> {portfolio.participation}</div>
         <div><strong>Used technology:</strong> {portfolio.technologies?.map((item: any) => item + ', ')}</div>
-        <div><strong>url:</strong> --</div>
-        <div><strong>year:</strong> {portfolio.year}</div>
+        <div><strong>Url:</strong> --</div>
+        <div><strong>Year:</strong> {portfolio.year}</div>
       </div>
       <div className={styles.content}>
         <div className={styles.image}>

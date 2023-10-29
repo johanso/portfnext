@@ -35,15 +35,18 @@
   }
 }
 .name {
-  font-size: $fsize-16;
+  font-size: $fsize-16 * 1.2;
   line-height: 1.2;
   color: var(--color-text-200);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  @include breakpoint(medium) {
+    font-size: $fsize-16;
+  }
 }
 .rol {
-  font-size: $fsize-12 * 1.35;
+  font-size: $fsize-12;
   font-weight: $fweight-normal;
   color: var(--color-text-500);
   margin-bottom: $space-8;
@@ -51,10 +54,17 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  @include breakpoint(medium) {
+    font-size: $fsize-12 * 1.35;
+  }
 }
 .desc {
+  display: none;
   font-size: $fsize-16;
   margin-bottom: $space-8;
+  @include breakpoint(medium) {
+    display: block;
+  }
 }
 .text {
   &_hide {
