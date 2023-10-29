@@ -78,7 +78,7 @@ const data = {
       { id: uuidv4(), data: "Age", value: "36" },
       { id: uuidv4(), data: "Residence", value: "CO" },
       { id: uuidv4(), data: "Freelance", value: "Available" },
-      { id: uuidv4(), data: "Address", value: "Bogota, Colombia" },
+      { id: uuidv4(), data: "Address", value: "Bogotá, Colombia" },
     ],
     block: [
       {

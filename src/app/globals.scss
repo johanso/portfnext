@@ -79,13 +79,13 @@ body {
   font-family: var(--font-lekton);
   background-color: var(--color-surface-200);
   color: var(--color-text-100);
-  background-image: linear-gradient(var(--color-surface-400) 1px, transparent 1px),
-    linear-gradient(to right, #ccccdc 1px, transparent 1px);
+  background-image: linear-gradient(var(--color-gray-6) 1px, transparent 1px),
+    linear-gradient(to right, var(--color-gray-6) 1px, transparent 1px);
   background-size: $space-64 $space-64;
 }
 
 .boxbg {
-  background: radial-gradient(transparent, var(--color-surface-200) 85%);
+  background: radial-gradient(transparent, var(--color-surface-200) 80%);
 }
 
 p {
