@@ -51,3 +51,25 @@
     width: 100%;
   }
 }
+.emailok {
+  color: var(--color-complementary);
+  border: 1px solid;
+  padding: $space-32;
+  margin: $space-40 0;
+  text-align: center;
+  position: relative;
+  svg {
+    font-size: $fsize-30;
+    background: var(--color-surface-100);
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    left: calc(50% - $space-16);
+    top: -$space-16;
+    border: 1px solid;
+  }
+  p {
+    color: var(--color-text-400);
+    margin-bottom: 0;
+  }
+}

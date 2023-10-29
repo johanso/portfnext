@@ -1,8 +1,7 @@
 import { ChangeEvent } from 'react'
-import styles from './input.module.scss'
+import styles from './textarea.module.scss'
 
 interface InputProps {
-  type: 'text' | 'number' | 'email' | 'password'
   label: string
   value: string | number
   name: string
@@ -12,12 +11,11 @@ interface InputProps {
     message?: string
   }
   disabled?: boolean
-  onChange: (e: ChangeEvent<HTMLInputElement>) => void
-  onBlur: (e: ChangeEvent<HTMLInputElement>) => void
+  onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void
+  onBlur: (e: ChangeEvent<HTMLTextAreaElement>) => void
 }
 
-const Input = ({
-  type,
+const Textarea = ({
   label,
   value,
   name,
@@ -30,8 +28,7 @@ const Input = ({
 
   return (
     <div className={styles.group}	>
-      <input 
-        type={type}
+      <textarea 
         id={label}
         value={value}
         name={name}
@@ -49,4 +46,4 @@ const Input = ({
   )
 }
 
-export default Input
+export default Textarea

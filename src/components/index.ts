@@ -10,6 +10,7 @@ import Project from "./project/project";
 import Modal from "./modal/modal";
 import ProjectFull from "./projectFull/projectFull";
 import Input from "./form/input/input";
+import Textarea from "./form/textarea/textarea";
 
 export { 
   Topbar, 
@@ -23,5 +24,6 @@ export {
   Project,
   Modal,
   ProjectFull,
-  Input
+  Input,
+  Textarea
 }

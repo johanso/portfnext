@@ -20,6 +20,46 @@
   &:focus {
     opacity: 1;
   }
+  &:hover {
+    &[href*='github'] {
+      border-color: #24292e;
+      svg {
+        color: #24292e;
+      }
+    }
+    &[href*='linkedin'] {
+      border-color: #0077b5;
+      svg {
+        color: #0077b5;
+      }
+    }
+    &[href*='behance'] {
+      border-color: #1769ff;
+      svg {
+        color: #1769ff;
+      }
+    }
+    &[href*='dribbble'] {
+      border-color: #ea4c89;
+      svg {
+        color: #ea4c89;
+      }
+    }
+    &[href*='youtube'] {
+      border-color: #ff0000;
+      svg {
+        color: #ff0000;
+      }
+      
+    }
+    &[href*='medium'] {
+      border-color: #00ab6c;
+      svg {
+        color: #00ab6c;
+      }
+      
+    }
+  }
   svg {
     font-size: $fsize-20;
     color: var(--color-text-500);
