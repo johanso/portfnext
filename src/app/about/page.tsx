@@ -6,6 +6,7 @@ import { Icon } from '@/components/icons';
 import { DataContext } from '@/context/dataProvider';
 import { IBlock, IList } from '../types';
 
+
 const About = () => {
   const {about}: any = useContext(DataContext);
 

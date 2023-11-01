@@ -14,7 +14,6 @@ const Resume = () => {
     <MainContent>
       <section className={styles.section}>
         <h2 className={styles.title}>{resume.title}</h2>
-
         {resume.blockExperience.map((block: IBlockExperience) => (
           <div key={block.title} className={styles.block}>
             <div className={styles.block_header}>
@@ -79,8 +78,6 @@ const Resume = () => {
             </div>
           </div>
         ))}
-        
-
       </section>
     </MainContent>
   )

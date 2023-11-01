@@ -21,6 +21,9 @@
       font-size: $fsize-24;
       margin-bottom: $space-4;
     }
+    [class*='desc'] {
+      display: block;
+    }
   }
 }
 .avatar {
@@ -68,8 +71,6 @@
 }
 .text {
   &_hide {
-    @include breakpoint(medium) {
-      display: none;
-    }
+    display: none;
   }
 }
