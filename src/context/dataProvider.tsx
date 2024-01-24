@@ -318,14 +318,6 @@ const data = {
     subtitle: "What I've done",
     navFilter: [
       {
-        id: 'freelance',
-        text: 'Freelance'
-      },
-      {
-        id: 'clones',
-        text: 'Clones'
-      },
-      {
         id: 'employee',
         text: 'Employee'
       }
